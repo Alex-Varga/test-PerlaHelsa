@@ -37,7 +37,7 @@
       transform: translateY(-50%);
       width: 14px;
       height: 14px;
-      background-image: url('img/icon-bar.svg');
+      background-image: url('/img/icon-bar.svg');
 
       @media (min-width: 1365px) {
         width: 20px;

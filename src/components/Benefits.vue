@@ -16,15 +16,15 @@
 
 const benefitsItems = [
   {
-    img: 'img/benefits1.png',
+    img: '/img/benefits1.png',
     text: 'Безкоштовна доставка від 1800 грн'
   },
   {
-    img: 'img/benefits2.png',
+    img: '/img/benefits2.png',
     text: 'Відправки в день оформлення замовлення до 16:00'
   },
   {
-    img: 'img/benefits3.png',
+    img: '/img/benefits3.png',
     text: 'Гарантія повернення грошових коштів'
   }
 ]

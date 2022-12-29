@@ -12,22 +12,22 @@
         </div>
 
         <div class="header-left__search">
-          <img src="img/icon-search.svg" alt="search">
+          <img src="/img/icon-search.svg" alt="search">
         </div>
       </div>
 
       <router-link to="/" class="header-logo">
-        <img src="img/Logo.svg" alt="logo">
+        <img src="/img/Logo.svg" alt="logo">
       </router-link>
 
       <div class="header-right">
         <a href="tel:0999999999" class="header-right__phone">
-          <img src="img/icon-tel.svg" alt="phone">
+          <img src="/img/icon-tel.svg" alt="phone">
         </a>
 
         <div class="header-right__cart">
           <router-link to="/cart">
-            <img src="img/icon-cart.svg" alt="cart">
+            <img src="/img/icon-cart.svg" alt="cart">
             <span class="cart-count">
               {{ cartStore.cart.length }}
             </span>

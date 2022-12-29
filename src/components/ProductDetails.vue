@@ -3,7 +3,7 @@
     <div class="product-details-top">
       <div class="product-details-top__descr">
         <div class="descr-image">
-          <img src="img/icon.png" alt="icon">
+          <img src="/img/icon.png" alt="icon">
         </div>
 
         <div class="descr-info">
