@@ -1,0 +1,52 @@
+@font-face {
+  font-family: 'Onest';
+  src: url('fonts/OnestBold1602-hint.woff');
+  font-weight: 700;
+  font-stretch: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Onest';
+  src: url('fonts/OnestMedium1602-hint.woff');
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Onest';
+  src: url('fonts/OnestRegular1602-hint.woff');
+  font-weight: 400;
+  font-stretch: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --primary: #00284F;
+}
+
+body {
+  font-family: 'Onest';
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+button, input {
+  border: none;
+  outline: none;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
