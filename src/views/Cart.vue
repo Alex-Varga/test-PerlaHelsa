@@ -68,7 +68,7 @@ const changeQuantity = (type, id) => {
       }
 
       if (type == 'plus') {
-        el.count >= 3 ? el.count = 3 : el.count++
+        el.count >= 10 ? el.count = 10 : el.count++
       }
     }
   })
