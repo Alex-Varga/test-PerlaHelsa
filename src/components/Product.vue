@@ -79,15 +79,20 @@ const onNextClick = () => {
   controlledSwiper.value.slideNext(350)
 }
 
+const image = new URL('/img/slide1.png', import.meta.url).href
+const slide2 = new URL('/img/slide2.png', import.meta.url).href
+const slide3 = new URL('/img/slide3.png', import.meta.url).href
+const slide4 = new URL('/img/slide4.png', import.meta.url).href
+
 const products = ref([
   {
     id: 1,
-    image: '/img/slide1.png',
+    image: image,
     title: '<strong>Омега-3</strong> Тріска',
     description: 'з вітамінами А і D3',
     price: 489,
     compared_price: 963,
-    images: ['/img/slide1.png', '/img/slide2.png', '/img/slide3.png', '/img/slide4.png'],
+    images: [image, slide2, slide3, slide4],
     count_in_pack: '120 капсул по 500 мг',
     duration: '1 місяць прийому'
   }

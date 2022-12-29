@@ -14,17 +14,21 @@
 
 <script setup>
 
+const benefits1 = new URL('/img/benefits1.png', import.meta.url).href
+const benefits2 = new URL('/img/benefits2.png', import.meta.url).href
+const benefits3 = new URL('/img/benefits3.png', import.meta.url).href
+
 const benefitsItems = [
   {
-    img: '/img/benefits1.png',
+    img: benefits1,
     text: 'Безкоштовна доставка від 1800 грн'
   },
   {
-    img: '/img/benefits2.png',
+    img: benefits2,
     text: 'Відправки в день оформлення замовлення до 16:00'
   },
   {
-    img: '/img/benefits3.png',
+    img: benefits3,
     text: 'Гарантія повернення грошових коштів'
   }
 ]
